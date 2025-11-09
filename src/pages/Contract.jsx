@@ -28,12 +28,12 @@ export default function Contract() {
         it’s possible to find many examples online or even view my classmates’
         code directly. I swear that I will only use these resources to learn,
         and will not cut and paste code except where I have properly given
-        credit (i.e. external libraries) and never from my classmates.
+        credit (i.e., external libraries) and never from my classmates.
       </p>
 
       <p>
         <strong>Signed:</strong> Andrew J Edgerton, 08/25/2025
       </p>
     </main>
-  );
+  )
 }

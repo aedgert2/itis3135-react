@@ -10,9 +10,8 @@ export default function Footer() {
         <a href="https://www.linkedin.com/in/aedgert2/">LinkedIn</a>
       </nav>
       <p>
-        Page Built by{" "}
-        <a href="https://cuttingedgedesign.co/">Cutting Edge Design</a> &copy; 2025
+        Page Built by <a href="https://cuttingedgedesign.co/">Cutting Edge Design</a> &copy; 2025
       </p>
     </footer>
-  );
+  )
 }

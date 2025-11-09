@@ -1,9 +1,10 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import Introduction from "./pages/Introduction";
-import Contract from "./pages/Contract";
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
+import Home from './pages/Home.jsx'
+import Introduction from './pages/Introduction.jsx'
+import Contract from './pages/Contract.jsx'
+import "./index.css";
 
 export default function App() {
   return (
@@ -16,5 +17,5 @@ export default function App() {
       </Routes>
       <Footer />
     </Router>
-  );
+  )
 }
