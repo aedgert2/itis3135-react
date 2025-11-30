@@ -4,6 +4,11 @@ import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
 import Introduction from './pages/Introduction.jsx'
 import Contract from './pages/Contract.jsx'
+import StudentsPage from "./pages/StudentsPage";
+
+
+
+
 import "./index.css";
 
 export default function App() {
@@ -14,6 +19,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/introduction" element={<Introduction />} />
         <Route path="/contract" element={<Contract />} />
+        <Route path="/students" element={<StudentsPage />} />
       </Routes>
       <Footer />
     </Router>

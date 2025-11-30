@@ -8,6 +8,8 @@ export default function Navbar() {
       <Link to="/introduction">Introduction</Link>
       <span> | </span>
       <Link to="/contract">Contract</Link>
+      <span> | </span>
+      <Link to="/students">Students</Link>
     </nav>
   )
 }
